@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+article{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.konyvContainer{
+    flex: 0 0 33%;
+
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.torol{
+    background-color: rgb(252, 110, 110);
+}
+
+.modosit{
+    background-color: rgb(116, 211, 255);
+}
+
+.torol:hover{
+    cursor: pointer;
+}
+.modosit:hover{
+    cursor: pointer;
+}
+
+.kosarba{
+    width: 30px;
+    height: 20px;
+    background-color: aqua;
+}
+.kosarba:hover{
+    cursor: pointer;
+}
